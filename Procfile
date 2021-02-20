@@ -1,1 +1,1 @@
-web: gunicorn jobs.wsgi --log-file -
+web: gunicorn Project_Portolio.wsgi --log-file -
