@@ -26,7 +26,9 @@ SECRET_KEY = 'cu1!=f)sa19nu8cknh0yeo2x$lgn#p4!9ym)(chh**$!b$$k)*'
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+ 'kgalabiwebsiteportfolio.herokuapp.com',
+]
 
 
 # Application definition
