@@ -11,6 +11,8 @@
 <main role="main">
     <section class="jumbotron text-center">
         <div class="container">
+             {% load static %}
+            <img class="rounded-circle" alt="100x100" src="{% static 'jobs/kgalabi.jpg' %}" height="400" alt="my favorite picture">
             <h1 class="jumbotron-heading">Welcome</h1>
             <p class="lead text-muted">
                 Hello everyone my name is Kgalabi Mongatane I am Developer from South Africa!
@@ -25,8 +27,7 @@
             <p>
                 <a href="mailto:tshepomongatane29@gmail.com" class="btn btn-primary my-2">Email Me</a>
             </p>
-            {% load static %}
-            <img src="{% static 'jobs/kgalabi.jpg' %}" height="400" alt="my favorite picture">
+
         </div>
     </section>
 
